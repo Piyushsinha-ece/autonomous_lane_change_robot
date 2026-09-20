@@ -44,7 +44,6 @@ If the alternate line cannot be detected, the robot enters a safety stop state.
 | 2× TT geared DC motors | Differential drive |
 | 2×18650 battery pack | Power source |
 | LM2596 buck converter | Voltage regulation |
-| 1000 µF capacitor | Motor power stabilization |
 | Caster wheel | Mechanical support |
 
 ## Pin Configuration
@@ -99,13 +98,6 @@ The project uses:
 - Wire
 - Adafruit MPU6050
 - Adafruit Unified Sensor
-
-## Repository Structure
-
-autonomous_lane_change_robot/
-│
-├── autonomous_lane_change_robot.ino
-└── README.md
 
 ## Author
 Piyush Sinha
